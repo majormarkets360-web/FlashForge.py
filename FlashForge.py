@@ -22,7 +22,6 @@ Refresh this page
 """)
 st.stop()
 
-====================== FLASH LOAN INTERFACES LIBRARY ======================
 FLASH_LOAN_INTERFACES = {
 "Aave V3 (0.09%)": {
 "name": "Aave V3",
@@ -138,7 +137,6 @@ MORPHO.flashLoan(address(this), ASSET, amount, "");""",
 }
 }
 
-====================== CHAIN ADDRESSES ======================
 CHAIN_ADDRESSES = {
 "Ethereum": {
 "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
@@ -172,7 +170,7 @@ CHAIN_ADDRESSES = {
 }
 }
 
-====================== CONTRACT GENERATOR ======================
+
 def generate_contract(provider, asset, amount, strategy, chain):
 """Generate complete flash loan contract with all interfaces"""
 
