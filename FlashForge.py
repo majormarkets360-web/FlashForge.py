@@ -18,9 +18,9 @@ Click Save and refresh
 """)
 st.stop()
 
-============================================================================
+
 COMPLETE INTERFACES LIBRARY
-============================================================================
+
 Flash Loan Provider Interfaces
 FLASH_LOAN_PROVIDERS = {
 "Aave V3": {
@@ -264,9 +264,9 @@ DEX_ROUTERS = {
 }
 }
 
-============================================================================
+
 CONTRACT GENERATOR
-============================================================================
+
 def generate_complete_contract(
 flash_provider,
 dex_used,
@@ -383,9 +383,9 @@ receive() external payable {{}}
 
 return contract
 
-============================================================================
+
 STREAMLIT APP
-============================================================================
+
 st.title("⚡ FlashForge AI")
 st.markdown("Complete Flash Loan Arbitrage Studio – With All Interfaces & Token Approvals")
 
